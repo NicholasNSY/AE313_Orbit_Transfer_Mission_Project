@@ -1,6 +1,6 @@
 # Orbit Transfer Mission from LEO to GEO
 
-## :space_invader: ERAU ES201 :space_invader:
+## :space_invader: ERAU AE313 :space_invader:
 
 
 **Koreasat-5A Launch Program - AGI STK**
