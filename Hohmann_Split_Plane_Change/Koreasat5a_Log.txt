@@ -1,0 +1,132 @@
+Astrogator Log File; DriverMCS: Mission_Control_Sequence
+-------------------------------------------------------------
+
+
+----------------------------------------------
+Begin targeter profile Transfer.Differential_Corrector
+
+Initial control parameters:
+
+Unscaled Controls:
+Name                                      Current Value           Last Update         Total Correction
+Delta_V1 : ImpulsiveMnvr.Cartesian.X  2430.293645949553 m/sec  0.000000000000 m/sec  2430.293645949553 m/sec
+
+
+Homotopy step   1 of   1
+
+Intermediate Goals Desired:
+Delta_V1 : Radius_Of_Apoapsis  42164.144999999997 km
+
+
+
+---Running one step of the differential corrector...
+
+--------------------------------------------------------
+
+<<< Targeting Finished >>>
+    [Goals met]
+
+
+--------------------------------------------------------
+
+---Done. (running one step of the differential corrector.)
+
+Params from single diff corr
+
+Unscaled Controls:
+Name                                      Current Value           Last Update         Total Correction
+Delta_V1 : ImpulsiveMnvr.Cartesian.X  2430.293645949553 m/sec  0.000000000000 m/sec  2430.293645949553 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                                Current Value                Desired         Difference          Tolerance
+Delta_V1 : Radius_Of_Apoapsis  42164.147086584104 km  42164.144999999997 km  0.002086584106 km  0.100000000000 km
+
+
+
+----------------------------------------------
+Final Params from Homotopy Diff Corr
+
+Unscaled Controls:
+Name                                      Current Value           Last Update         Total Correction
+Delta_V1 : ImpulsiveMnvr.Cartesian.X  2430.293645949553 m/sec  0.000000000000 m/sec  2430.293645949553 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                                Current Value                Desired         Difference          Tolerance
+Delta_V1 : Radius_Of_Apoapsis  42164.147086584104 km  42164.144999999997 km  0.002086584106 km  0.100000000000 km
+
+
+
+----------------------------------------------
+
+*********** Done Targeting************************
+
+End targeter profile Transfer.Differential_Corrector
+----------------------------------------------
+Begin targeter profile GEO.Differential_Corrector
+
+Initial control parameters:
+
+Unscaled Controls:
+Name                                                 Current Value           Last Update         Total Correction
+Delta_V2_(Combined) : ImpulsiveMnvr.Cartesian.X  1102.064724426633 m/sec  0.000000000000 m/sec  1102.064724426633 m/sec
+Delta_V2_(Combined) : ImpulsiveMnvr.Cartesian.Y  1469.925517608216 m/sec  0.000000000000 m/sec  1469.925517608216 m/sec
+
+
+Homotopy step   1 of   1
+
+Intermediate Goals Desired:
+Delta_V2_(Combined) : Eccentricity  0.000000000000    
+Delta_V2_(Combined) : Inclination   0.000000000000 deg
+
+
+
+---Running one step of the differential corrector...
+
+--------------------------------------------------------
+
+<<< Targeting Finished >>>
+    [Goals met]
+
+
+--------------------------------------------------------
+
+---Done. (running one step of the differential corrector.)
+
+Params from single diff corr
+
+Unscaled Controls:
+Name                                                 Current Value           Last Update         Total Correction
+Delta_V2_(Combined) : ImpulsiveMnvr.Cartesian.X  1102.064724426633 m/sec  0.000000000000 m/sec  1102.064724426633 m/sec
+Delta_V2_(Combined) : ImpulsiveMnvr.Cartesian.Y  1469.925517608216 m/sec  0.000000000000 m/sec  1469.925517608216 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                                 Current Value             Desired          Difference           Tolerance
+Delta_V2_(Combined) : Eccentricity  0.003969347696      0.000000000000      0.003969347696      0.100000000000    
+Delta_V2_(Combined) : Inclination   0.083208739810 deg  0.000000000000 deg  0.083208739810 deg  0.100000000000 deg
+
+
+
+----------------------------------------------
+Final Params from Homotopy Diff Corr
+
+Unscaled Controls:
+Name                                                 Current Value           Last Update         Total Correction
+Delta_V2_(Combined) : ImpulsiveMnvr.Cartesian.X  1102.064724426633 m/sec  0.000000000000 m/sec  1102.064724426633 m/sec
+Delta_V2_(Combined) : ImpulsiveMnvr.Cartesian.Y  1469.925517608216 m/sec  0.000000000000 m/sec  1469.925517608216 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                                 Current Value             Desired          Difference           Tolerance
+Delta_V2_(Combined) : Eccentricity  0.003969347696      0.000000000000      0.003969347696      0.100000000000    
+Delta_V2_(Combined) : Inclination   0.083208739810 deg  0.000000000000 deg  0.083208739810 deg  0.100000000000 deg
+
+
+
+----------------------------------------------
+
+*********** Done Targeting************************
+
+End targeter profile GEO.Differential_Corrector

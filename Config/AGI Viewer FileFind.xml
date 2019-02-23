@@ -1,0 +1,43 @@
+<?xml version = "1.0" standalone = "yes"?>
+<FileFind TypeSelection = "0" version = "1.0">
+    <Cursor>
+        <Path Directory = "C:\Users\OMEN\Documents\STK 11 (x64)\Config\Pixmaps" />
+        <Path Directory = "C:\ProgramData\AGI\STK 11 (x64)\STKData\Pixmaps" />
+        <Path Directory = "C:\Program Files\AGI\STK 11\STKData\Pixmaps" />
+    </Cursor>
+    <DAFIF />
+    <DynamicEarthData>
+        <Path Directory = "C:\Users\OMEN\Documents\STK 11 (x64)\Config\DynamicEarthData" />
+        <Path Directory = "C:\ProgramData\AGI\STK 11 (x64)\DynamicEarthData" />
+        <Path Directory = "C:\Program Files\AGI\STK 11\DynamicEarthData" />
+    </DynamicEarthData>
+    <Help>
+        <Path Directory = "C:\Users\OMEN\Documents\STK 11 (x64)\Config\Help" />
+        <Path Directory = "C:\ProgramData\AGI\STK 11 (x64)\Help" />
+        <Path Directory = "C:\Program Files\AGI\STK 11\Help" />
+    </Help>
+    <HelpIndex>
+        <Path Directory = "C:\Users\OMEN\Documents\STK 11 (x64)\Config\Help" />
+        <Path Directory = "C:\ProgramData\AGI\STK 11 (x64)\Help" />
+        <Path Directory = "C:\Program Files\AGI\STK 11\Help" />
+    </HelpIndex>
+    <Image>
+        <Path Directory = "C:\Users\OMEN\Documents\STK 11 (x64)\Config\Pixmaps" />
+        <Path Directory = "C:\ProgramData\AGI\STK 11 (x64)\STKData\Pixmaps" />
+        <Path Directory = "C:\Program Files\AGI\STK 11\STKData\Pixmaps" />
+    </Image>
+    <LocalHelp>
+        <Path Directory = "C:\Users\OMEN\Documents\STK 11 (x64)\Config\Help" />
+        <Path Directory = "C:\ProgramData\AGI\STK 11 (x64)\Help" />
+        <Path Directory = "C:\Program Files\AGI\STK 11\Help" />
+    </LocalHelp>
+    <OnlineHelp>
+        <Path Directory = "C:\Users\OMEN\Documents\STK 11 (x64)\Config\Help" />
+        <Path Directory = "C:\ProgramData\AGI\STK 11 (x64)\Help" />
+        <Path Directory = "C:\Program Files\AGI\STK 11\Help" />
+    </OnlineHelp>
+    <VODataDir>
+        <Path Directory = "C:\Program Files\AGI\STK 11\STKData\VO\Textures" />
+        <Path Directory = "C:\Users\OMEN\Documents\AGIDownloadData" />
+    </VODataDir>
+</FileFind>

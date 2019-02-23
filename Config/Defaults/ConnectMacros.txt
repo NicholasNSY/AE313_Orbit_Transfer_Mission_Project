@@ -1,0 +1,75 @@
+Option explicit
+
+' Connect Constants
+Dim lGiConnectAck, lGiConnectNack
+lGiConnectAck  = 14011
+lGiConnectNack = 14010
+
+Function Connect_ConnectRequest
+' Description: This function is called prior to accepting
+'     a conection into STK. The function must return 1 to
+'     indicate that the connection is to be accepted. Any
+'     other values will indicate that the connection should
+'     be refused.
+
+    Connect_ConnectRequest = 1
+End Function
+
+Sub Connect_ConnectComplete ( iConnectionId )
+' Description: This sub is called after accepting
+'     a conection into STK. The Connection ID is passed to
+'     the sub. Note that Connection IDs are reused if 
+'     connections are made and terminated.
+
+End Sub
+
+Sub Connect_ConnectTerminated ( iConnectionId )
+' Description: This sub is called after a connection
+'     has been terminated. The Connection ID is passed to
+'     the sub. Note that the Connection ID is the value 
+'     that was associated with the connection in the
+'     Connect_ConnectComplete sub callback.
+
+End Sub
+
+'Function Connect_Cmd_MY_COMMAND ( iConnectionId, bstrPath, bstrCmdData, pvarResult )
+' Description: Connect will create a macro function name by 
+'     concatenating 'Connect_Cmd_' and the upper case Connect Command
+'     Verb from a received command. (ex. 'MY_COMMAND')
+'     Connect will call the macro
+'     prior to attempting to process the MY_COMMAND normally.
+'     If MY_COMMAND is an existing Connect command,
+'     the MY_COMMAND macro can override the built in MY_COMMAND
+'     processing by returning lGiConnectAck or lGiConnectNack and
+'     setting the pvarResult parameter accordingly. Otherwise,
+'     the macro can return 0 to indicate the existing Connect processing
+'     should be attempted.
+'     The iConnectionId parameter
+'     indicates the connection that the command came in on.
+'     The bstrPath parameter contains the Connect command object path.
+'     The bstrCmdData parameter contains the Connect command data.
+'     The pvarResult parameter is for returning the results.
+'     Function return values are interpreted as follows:
+'           Value                        Meaning
+'           -----            -----------------------------------------
+'               0            Continue Connect processing as usual.
+'           lGiConnectAck    Command Suceeded in script. Send Ack.
+'                             No further Connect Command processing 
+'                             is to be done.
+'           lGiConnectNack   Command failed in script. Send Nack.
+'                             No further Connect Command processing
+'                             is to be done.
+'
+'    Connect_Cmd_MY_COMMAND = 0
+'End Function
+
+Sub Connect_CommandFailed ( iConnectionId, bstrPath, bstrCommand, bstrCmdData, iError )
+' Description: This sub is called if a Connect command has
+'     resulted in a failure. The iConnectionId parameter
+'     indicates the connection that the command came in on.
+'     The bstrPath parameter contains the Connect command object path.
+'     The bstrCommand parameter contains the Connect command verb.
+'     The bstrCmdData parameter contains the Connect command data.
+'     The iError parameter contains the error code indicating the failure.
+
+End Sub

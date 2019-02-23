@@ -1,0 +1,21 @@
+<?xml version = "1.0" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "11.3.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "Hohmann_Split_Plane_Change AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/Hohmann_Split_Plane_Change" Type = "IntervalList">
+                <Interval Name = "Hohmann_Split_Plane_Change AvailabilityIntervals" StartTime = "31 Oct 2017 19:42:00.000" StopTime = "3 Nov 2017 00:00:00.000" />
+            </Row>
+            <Row ClassName = "Satellite" ComponentName = "MCSEphemerisSegments" DisplayName = "Koreasat5a MCSEphemerisSegments" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/Hohmann_Split_Plane_Change/Satellite/Koreasat5a" Type = "IntervalList">
+                <Interval Name = "Koreasat5a MCSEphemerisSegments" StartTime = "31 Oct 2017 19:42:00.000" StopTime = "31 Oct 2017 19:42:00.000" />
+                <Interval Name = "Koreasat5a MCSEphemerisSegments" StartTime = "31 Oct 2017 19:42:00.000" StopTime = "31 Oct 2017 21:11:52.010" />
+                <Interval Name = "Koreasat5a MCSEphemerisSegments" StartTime = "31 Oct 2017 21:11:52.010" StopTime = "31 Oct 2017 21:11:52.010" />
+                <Interval Name = "Koreasat5a MCSEphemerisSegments" StartTime = "31 Oct 2017 21:11:52.010" StopTime = "1 Nov 2017 02:26:29.535" />
+                <Interval Name = "Koreasat5a MCSEphemerisSegments" StartTime = "1 Nov 2017 02:26:29.535" StopTime = "1 Nov 2017 02:26:29.535" />
+                <Interval Name = "Koreasat5a MCSEphemerisSegments" StartTime = "1 Nov 2017 02:26:29.535" StopTime = "3 Nov 2017 00:00:00.000" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/Hohmann_Split_Plane_Change" GlobalStartOffset = "0.000000" GlobalStartTime = "31 Oct 2017 19:42:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "3 Nov 2017 00:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>
